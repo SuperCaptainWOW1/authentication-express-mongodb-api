@@ -13,7 +13,7 @@ Set **process.env** variables:
     
 ### How to use it:
 
-1. **POST /auth/signup** -  to create en entry in database
+1. **POST /auth/signup** -  to create en entry in database  
   Required payload:  
 ```
 {
@@ -22,8 +22,8 @@ Set **process.env** variables:
 }
 ```
 
-2. **POST /auth/login** -  to get *token*, *user id* and *username*
-	Required payload: 
+2. **POST /auth/login** -  to get *token*, *user id* and *username*  
+  Required payload: 
 ```
 {
   "username": "Mario",
